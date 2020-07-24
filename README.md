@@ -22,8 +22,7 @@ the output. <br>
 => 
    * This does not delete on cleanup
    * I don't know how easy it is to copy multiple files yet.
-3. Project `TargetAfterBuildXCopy` uses post-build event to copy with xcopy via msbuild's `Exec` task 
-<br>
+3. Project `TargetAfterBuildXCopy` uses post-build event to copy with xcopy via msbuild's `Exec` task <br>
 => 
    * This does not delete on cleanup
    * This can easily be used for multiple lines, because xcopy can use `*` wild-cards
